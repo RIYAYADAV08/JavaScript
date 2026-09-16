@@ -1,12 +1,11 @@
 //What is JavaScript?
-//JavaScript is a high level, interpreted programming language promarly used to add interactivity and dynamic behaviour to web pages.It works with HTML and CSS to build modern web applications and can also be used for backend development through Node.js.
+//JavaScript is a high level, interpreted programming language primarily used to add interactivity and dynamic behaviour to web pages.It works with HTML and CSS to build modern web applications and can also be used for backend development through Node.js.
 
 //Is Java and JavaScript are same ?
 //No, Java and JavaScript are different programming languages. Java is mainly used for backend development, while JavaScript is primarily used for web development.
 
 //Why do we use JavaScript?
 //JavaScript is used to make web pages dynamic and interactive, such as form validations, animations, button click events, and API calls.
-
 
 //console.log() - It is used to display output in console. It is used for testing and debugging JavaScript code.
 
@@ -22,8 +21,8 @@
 //Fast execution
 //Easy to learn
 //Versatile
-//Platform independent
 //Lightweight
+//Platform independent
 
 //Disadvantages of JavaScript
 //Security Issues
