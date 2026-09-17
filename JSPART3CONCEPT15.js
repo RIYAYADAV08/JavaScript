@@ -1,0 +1,9 @@
+//Splice - It adds, removes, or replaces elements in an array.
+let colors = ["red", "yellow", "blue", "orange", "pink", "white"];
+console.log(colors.splice(4));
+console.log(colors);
+console.log(colors.splice(0, 1));
+console.log(colors);
+
+console.log(colors.splice(0, 1, "black", "grey"));
+console.log(colors);

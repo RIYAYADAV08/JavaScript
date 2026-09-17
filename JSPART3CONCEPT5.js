@@ -5,7 +5,8 @@
 //stringName.method(arg)
 
 //indexof
-//It returns the index of the first occurrence of a specified value in a string.
+//It returns the index of the first occurrence of the specified value in a string.
+//It does not change the original string.
 
 let msg = "ILoveCoding";
 console.log(msg.indexOf("Love"));
