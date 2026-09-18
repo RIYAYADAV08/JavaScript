@@ -217,3 +217,72 @@ console.log(!(ages >= 18));    //False
 //    console.log("Pass");
 //    console.log("A+");
 // }
+
+//Switch Statement → Used when we have some fixed values that we need to compare to.
+let color = "red";
+switch(color) {
+    case "red":
+        console.log("stop");
+        break;
+    case "yellow" :
+        console.log("wait");
+        break;
+    case "green":
+        console.log("go");
+        break;
+    default:
+        console.log("Broken Light");
+}
+
+let day = 1;
+switch(day){
+    case 1 :
+    console.log("Monday");
+    break;
+    case 2 :
+    console.log("Tuesday");
+    break;
+    case 3 :
+    console.log("Wednesday");
+    break;
+    case 4 :
+    console.log("Thursday");
+    break;
+    case 5 :
+    console.log("Friday");
+    break;
+    case 6 :
+    console.log("Saturday");
+    break;
+    case 7 :
+    console.log("Sunday");
+    break;
+    default :
+    console.log("Else nothing")
+
+}
+
+
+//Alert 
+//It displays an alert message on the page.
+
+alert("something is wrong");
+
+//For printing error
+console.error("This is error");
+
+//For printing warning
+console.warn("This is a warning message");
+
+
+//Prompt 
+//It displays a dialog box that asks user for some input. 
+prompt("Enter your rollno.")
+
+// let firstName = prompt("Enter your name : ")
+// console.log(firstName);
+
+let firstName = prompt("Enter your firstName");
+let lastName = prompt("Enter your lastName");
+let msg = (`Welcome ${firstName + " " + lastName}.`)
+alert(msg);
