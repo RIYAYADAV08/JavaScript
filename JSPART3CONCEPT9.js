@@ -27,5 +27,3 @@ console.log(info[0].length);
 // concat()	       ❌ Does not change
 // includes()	   ❌ Does not change
 // indexOf()	   ❌ Does not change
-
-

@@ -31,3 +31,13 @@ console.log(start);
 let array = ['c', 'c++', 'html', 'javascript', 'python', 'java', 'c#', 'sql'];
 console.log(array.reverse());
 console.log(array.indexOf('javascript'));
+
+
+
+let game = [['x', 'null', '0'], ['null', 'x', 'null'], ['0', 'null', 'x']];
+console.log(game);
+game[0];
+game[0][1] = "0";
+console.log(game);
+
+
