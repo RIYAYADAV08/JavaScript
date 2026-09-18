@@ -218,7 +218,43 @@ console.log(!(ages >= 18));    //False
 //    console.log("A+");
 // }
 
-//Switch Statement → Used when we have some fixed values that we need to compare to.
+//Truthy
+//Values that are treated as true when used in a Boolean context.
+//Falsy
+//Values that are treated as false when used in a Boolean context.
+
+//Falsy Values- false, 0, -0, 0n(Bigint Value), "" (empty string), null, undefined, NaN
+//Truthy Values-Everything else.
+
+
+if ("") {
+    console.log("it has true value");
+} else {                                        //False because empty string h             
+    console.log("it has false value");
+}
+
+if (" ") {
+    console.log("it has true value");
+} else {                                       //true because empty string me space h
+    console.log("it has false value");
+}
+
+let string = "a";
+if (string) {
+    console.log("string is not empty");
+} else {
+    console.log("string is empty");
+}
+
+let num = 0;
+
+if (num) {
+    console.log("num is not equal to 0");
+} else {
+    console.log("num is equal to 0");
+}
+
+//Switch Statement → A switch statment is a control flow statement used to execute one block of code from multiple possible cases based on the value of an expression.
 let color = "red";
 switch(color) {
     case "red":
@@ -264,7 +300,7 @@ switch(day){
 
 
 //Alert 
-//It displays an alert message on the page.
+//It is used to display an alert message on the page.
 
 alert("something is wrong");
 
@@ -276,7 +312,7 @@ console.warn("This is a warning message");
 
 
 //Prompt 
-//It displays a dialog box that asks user for some input. 
+//It is used to display a dialog box that asks user for some input.  
 prompt("Enter your rollno.")
 
 // let firstName = prompt("Enter your name : ")
