@@ -1,0 +1,1 @@
+//Conditional Statements- Conditional Statements are used to make decisions in a program based on whether a condition is true or false.
