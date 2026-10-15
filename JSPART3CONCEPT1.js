@@ -1,0 +1,2 @@
+//String methods
+//stringName.method();
